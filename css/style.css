@@ -8,17 +8,24 @@
   src: url("../fonts/Oswald-Light.ttf");
 }
 
+@font-face {
+  font-family: openSans;
+  src: url("../fonts/openSans/OpenSans-Regular.ttf");
+}
+
 * {
-  background-color: #f8faff;
   margin: 0;
   padding: 0px;
+  background-color: #f8faff;
+
 }
 
 .title {
   text-align: center;
-  color: #15234c;
   margin-bottom: 30px;
   font-size: 35px;
+  color: #15234c;
+
 }
 
 .root {
@@ -30,11 +37,12 @@
 
 .card {
   width: 180px;
-  background-color: #f0f3ff;
   border-radius: 8px;
   padding: 15px 20px;
   display: flex;
   text-align: center;
+  background-color: #f0f3ff;
+
 }
 
 .uinfo {
@@ -53,17 +61,17 @@
 
 .uname {
   margin: 0;
-  color: #15234c;
   font-size: 15px;
   font-family: oswald_regular;
+  color: #15234c;
   background-color: #f0f3ff;
 }
 
 .address {
   margin: 3px 0 0;
-  color: #41638e;
   font-size: 10px;
   font-family: oswald_light;
+  color: #41638e;
   background-color: #f0f3ff;
 }
 
@@ -77,9 +85,10 @@
 
 .tag {
   padding: 2px 4px;
-  border: 1px solid #659ae8;
   border-radius: 10px;
   font-size: 7px;
+  border: 1px solid #659ae8;
+  font-family: openSans;
   color: #659ae8;
   background-color: #ffffff;
 }
