@@ -1,0 +1,85 @@
+@font-face {
+  font-family: oswald_regular;
+  src: url("../fonts/Oswald-Regular.ttf");
+}
+
+@font-face {
+  font-family: oswald_light;
+  src: url("../fonts/Oswald-Light.ttf");
+}
+
+* {
+  background-color: #f8faff;
+  margin: 0;
+  padding: 0px;
+}
+
+.title {
+  text-align: center;
+  color: #15234c;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 180px;
+  background-color: #f0f3ff;
+  border-radius: 8px;
+  padding: 15px 20px;
+  display: flex;
+  text-align: center;
+}
+
+.uinfo {
+  margin-left: 2px;
+  padding-top: 5px;
+  justify-content: center;
+  background-color: #f0f3ff;
+}
+
+.uimage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.uname {
+  margin: 0;
+  color: #15234c;
+  font-size: 15px;
+  font-family: oswald_regular;
+  background-color: #f0f3ff;
+}
+
+.address {
+  margin: 3px 0 0;
+  color: #41638e;
+  font-size: 10px;
+  font-family: oswald_light;
+  background-color: #f0f3ff;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 5px;
+  background-color: #f0f3ff;
+}
+
+.tag {
+  padding: 2px 4px;
+  border: 1px solid #659ae8;
+  border-radius: 10px;
+  font-size: 7px;
+  color: #659ae8;
+  background-color: #ffffff;
+}
